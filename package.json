@@ -1,0 +1,30 @@
+{
+  "name": "digital-project-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.1.4",
+    "webpack-dev-server": "^3.11.0",
+    "css-loader": "^6.8.1",
+    "sass-loader": "^13.3.2",
+    "node-sass": "^9.0.0",
+    "style-loader": "^3.3.3",
+    "html-webpack-plugin": "^5.5.3",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "prettier": "^3.0.1",
+    "html-loader": "^4.2.0",
+    "sass": "^1.58.0",
+    "webpack-merge": "^5.7.3"
+  }
+}
